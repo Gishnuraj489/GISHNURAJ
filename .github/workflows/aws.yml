@@ -54,7 +54,7 @@ jobs:
         id: update-task-def
         run: |
           TASK_DEF=$(aws ecs describe-task-definition \
-            --task-definition medusa-task \
+            --task-definition medusa-task:1 \
             --region us-east-1)
 
           NEW_TASK_DEF=$(echo "$TASK_DEF" | jq \
