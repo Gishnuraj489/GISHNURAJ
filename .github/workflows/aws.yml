@@ -75,7 +75,7 @@ jobs:
           aws ecs update-service \
             --cluster medusa-cluster \
             --service medusa-service \
-            --task-definition medusa-cluster:3 \
+            --task-definition medusa-task:3 \
             --force-new-deployment \
             --region us-east-1
           echo "Updated ECS service"
