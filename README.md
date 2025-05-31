@@ -212,18 +212,6 @@ docker push yourdockeruser/medusa-backend
 
 ---
 
-## 🎥 Video
 
-> 🔗 **[Insert YouTube Video Link Here]**  
-> In this video, I walk through everything — including my face and live output. Check it out!
 
----
 
-## 🔗 GitHub Repo
-
-> 🔗 **[Insert Public GitHub Repo Link Here]**  
-> Feel free to fork or star it! Contributions welcome.
-
----
-
-Let me know if you want this zipped or converted to a GitHub repo directly. Want me to build this out with real Terraform modules and ECS Task definitions too?
